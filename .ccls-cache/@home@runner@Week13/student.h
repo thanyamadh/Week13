@@ -5,7 +5,7 @@ class student:private MU_person,public Thai_person
 private:
   double gpa; // id + name
 public:
-  student(long=111 ,double=2.5,string="Nattawut",int=1111);
+  student(long=111 ,double=2.5,string="Nattawut",int=11111);
   ~student();
   void display(); // display_person
 };
